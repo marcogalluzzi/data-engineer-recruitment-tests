@@ -9,20 +9,20 @@ This repository contains a simple test for data engineering candidates at [Frogt
 
 The technical test consists of three tasks:
 
-* Transform a [poorly formatted TSV file](https://github.com/frogtek/recruiment-tests/blob/master/data/data.tsv) into a properly formatted, machine-readable TSV file. If you clicked on the link above you may notice that GitHub complains about errors in the file. The file does not explicitly adhere to the TSV format.
+* Transform a [poorly formatted TSV file](https://github.com/Frogtek/recruitment-tests/blob/master/data/data.tsv) into a properly formatted, machine-readable TSV file. If you clicked on the link above you may notice that GitHub complains about errors in the file. The file does not explicitly adhere to the TSV format.
 * Write an app that can generate core business events in batches; then write those events to a JSON delimited file at specified intervals.
 * Stream the JSON delimited files that you generated in step one into program which will output a running count of each event type to the terminal every five seconds.
 
 
 
-1. Write a simple script to transform [data.tsv](https://github.com/frogtek/recruiment-tests/blob/master/data/data.tsv) into a properly formatted tab-separated values (TSV) file that can be read by any standard CSV/TSV parser. The resulting file should have the
+1. Write a simple script to transform [data.tsv](https://github.com/Frogtek/recruitment-tests/blob/master/data/data.tsv) into a properly formatted tab-separated values (TSV) file that can be read by any standard CSV/TSV parser. The resulting file should have the
 following properties:
 
     * Each row contains the same number of fields
     * Fields are separated by tabs `\t`
     * Fields that contain reserved characters (e.g. `\t`, `\r`, `\n`) are quoted *(hint hint)*
     * The file is UTF-8 encoded (`data.tsv` is UTF-16LE encoded)
-   * The solution does *not* need to be generic enough to apply to similar issues in other files; your algorithm can be designed specifically for this data set. 
+    * The solution does *not* need to be generic enough to apply to similar issues in other files; your algorithm can be designed specifically for this data set.
     * Extra points are awarded for resource-efficient and scalable solutions.
 
     For bonus points, ambitious candidates can parallelize their algorithm. A parallelizable implementation will have the following properties:
@@ -109,7 +109,7 @@ To submit the test, please complete the following steps:
 5. Email the link back to the contact that give you this test
 
 #### Thanks for your time, we look forward to hearing from you!
-- The [Frogtek Tech Team](https://developing,frogtek.org)
+- The [Frogtek Tech Team](https://developing.frogtek.org)
 
 Inspiration:
 https://github.com/datascienceinc/data-engineering-test
