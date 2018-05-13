@@ -1,6 +1,6 @@
-# Frogtek Data Engineer Recruitment Test
+# Data Engineer Recruitment Test
 
-This repository contains a simple test for data engineering candidates at [Frogtek](http://frogtek.org). Thank you for taking the time to do it. It consists of two parts:
+This repository contains a simple test for data engineering candidates. Thank you for taking the time to do it. It consists of two parts:
 
 * [A technical test](#technical-test)
 * [A few technical questions](#technical-questions)
@@ -109,7 +109,6 @@ To submit the test, please complete the following steps:
 5. Email the link back to the contact that give you this test
 
 #### Thanks for your time, we look forward to hearing from you!
-- The [Frogtek Tech Team](http://developing.frogtek.org)
 
 Inspiration:
 https://github.com/datascienceinc/data-engineering-test
