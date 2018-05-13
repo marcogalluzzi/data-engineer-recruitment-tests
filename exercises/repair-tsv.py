@@ -4,7 +4,7 @@ import argparse
 # Constants
 CHAR_SEPARATOR = '\t'
 CHAR_NEWLINE = '\n'
-CHAR_QUOTES = '\''
+CHAR_QUOTES = '\"'
 SPECIAL_CHARACTERS = ('\n', '\r')
 ENCODING_OUTPUT = 'utf_8'
 
